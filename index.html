@@ -1,383 +1,383 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.6">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; min-height: 14.0px}
-    font.f1 {font: 12.0px Helvetica}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Western Slope Willow - Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Earth Tone Palette */
+        :root {
+            --primary-color: #5A6E55; /* Muted Green */
+            --primary-hover: #4B5A47; /* Darker Green */
+            --secondary-color: #8B4513; /* Saddle Brown */
+            --accent-color: #D2B48C; /* Tan */
+            --text-dark: #3D483A;
+            --text-light: #F5F5DC; /* Beige */
+        }
+
+        .nav-link {
+            @apply px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-gray-700;
+        }
+        .nav-link.active {
+            @apply bg-gray-900 text-white;
+        }
+        .cta-button {
+            background-color: var(--primary-color);
+            @apply inline-block text-white font-bold py-3 px-6 rounded-lg transition duration-300;
+        }
+        .cta-button:hover {
+            background-color: var(--primary-hover);
+        }
+        .section {
+            @apply py-16 sm:py-24;
+        }
+        .section-title {
+            @apply text-3xl sm:text-4xl font-bold tracking-tight text-center;
+            color: var(--text-dark);
+        }
+        .card {
+            @apply bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300;
+        }
+        .text-primary {
+            color: var(--primary-color);
+        }
+        /* Style for the dropdown */
+        .dropdown .dropdown-menu {
+            display: none;
+        }
+        .dropdown:hover .dropdown-menu, .dropdown.open .dropdown-menu {
+            display: block;
+        }
+    </style>
 </head>
-<body>
-<p class="p1"><font face="Helvetica" size="3" class="f1">&lt;!DOCTYPE html&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1">&lt;html lang="en"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1">&lt;head&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;title&gt;Western Slope Willow - Home&lt;/title&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;style&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>body {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>font-family: 'Inter', sans-serif;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>/* Earth Tone Palette */</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>:root {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>--primary-color: #5A6E55; /* Muted Green */</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>--primary-hover: #4B5A47; /* Darker Green */</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>--secondary-color: #8B4513; /* Saddle Brown */</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>--accent-color: #D2B48C; /* Tan */</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>--text-dark: #3D483A;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>--text-light: #F5F5DC; /* Beige */</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>.nav-link {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>@apply px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-gray-700;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>.nav-link.active {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>@apply bg-gray-900 text-white;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>.cta-button {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>background-color: var(--primary-color);</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>@apply inline-block text-white font-bold py-3 px-6 rounded-lg transition duration-300;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>.cta-button:hover {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>background-color: var(--primary-hover);</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>.section {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>@apply py-16 sm:py-24;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>.section-title {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>@apply text-3xl sm:text-4xl font-bold tracking-tight text-center;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>color: var(--text-dark);</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>.card {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>@apply bg-white rounded-xl shadow-lg overflow-hidden transform hover:-translate-y-2 transition-transform duration-300;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>.text-primary {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>color: var(--primary-color);</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>/* Style for the dropdown */</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>.dropdown .dropdown-menu {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>display: none;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>.dropdown:hover .dropdown-menu, .dropdown.open .dropdown-menu {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>display: block;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1">&lt;/head&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1">&lt;body class="bg-gray-100"&gt;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;!-- Navigation --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;nav class="bg-gray-800 fixed w-full z-20 top-0"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;div class="flex items-center justify-between h-16"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;div class="flex items-center"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;div class="flex-shrink-0"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;span class="text-white font-bold text-xl"&gt;Western Slope Willow&lt;/span&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;div class="hidden md:block"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;div class="ml-10 flex items-baseline space-x-4"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;a href="#home" class="text-white nav-link active" onclick="showPage('home')"&gt;Home&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;a href="#about" class="text-white nav-link" onclick="showPage('about')"&gt;About&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;a href="#services" class="text-white nav-link" onclick="showPage('services')"&gt;Services&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;!-- Shop Dropdown --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;div class="relative dropdown"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;button id="shop-menu-button" class="text-white nav-link flex items-center"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>Shop</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"&gt;&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"&gt;&lt;/path&gt;&lt;/svg&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/button&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="dropdown-menu absolute right-0 mt-2 w-48 bg-gray-800 rounded-md shadow-lg py-1 z-20"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;a href="https://www.etsy.com/shop/WesternSlopeWillowCo" target="_blank" class="block px-4 py-2 text-sm text-white hover:bg-gray-700"&gt;Etsy Store&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;a href="https://m1h2y1-4b.myshopify.com/" target="_blank" class="block px-4 py-2 text-sm text-white hover:bg-gray-700"&gt;Shopify Store&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;a href="#contact" class="text-white nav-link" onclick="showPage('contact')"&gt;Contact&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;div class="md:hidden"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                     </span>&lt;button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;span class="sr-only"&gt;Open main menu&lt;/span&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" /&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/svg&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" /&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/svg&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/button&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;div class="md:hidden hidden" id="mobile-menu"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;div class="px-2 pt-2 pb-3 space-y-1 sm:px-3"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;a href="#home" class="block nav-link active" onclick="showPage('home')"&gt;Home&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;a href="#about" class="block nav-link" onclick="showPage('about')"&gt;About&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;a href="#services" class="block nav-link" onclick="showPage('services')"&gt;Services&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;a href="#contact" class="block nav-link" onclick="showPage('contact')"&gt;Contact&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;a href="https://www.etsy.com/shop/WesternSlopeWillowCo" target="_blank" class="block nav-link"&gt;Etsy Store&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;a href="https://m1h2y1-4b.myshopify.com/" target="_blank" class="block nav-link"&gt;Shopify Store&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;main class="pt-16"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;!-- Home Page --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;div id="home" class="page"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;!-- Hero Section --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;header class="bg-white shadow"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;div class="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8 text-center"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight" style="color: var(--text-dark);"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>Hand-Grown Willow &lt;ul&gt; &amp; &lt;ul&gt; &lt;span class="text-primary"&gt;Specialty Plants&lt;/span&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/h1&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-4 max-w-2xl mx-auto text-lg sm:text-xl text-gray-600"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>From our family-run greenhouse in Montrose, Colorado to your home, garden, or nursery.</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;a href="#contact" onclick="showPage('contact')" class="cta-button"&gt;Explore Our Plants&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;/header&gt;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;!-- About Us Summary Section --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;section class="section bg-gray-50"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;div class="lg:text-center"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;h2 class="text-base font-semibold tracking-wide uppercase" style="color: var(--primary-color);"&gt;About Us&lt;/h2&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;p class="mt-2 section-title"&gt;Growing Beauty from the Western Slope&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;p class="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>At Western Slope Willow, we specialize in growing premium willow and unique specialty plants. With over 20 years of experience, our founder turned a lifelong dream into a thriving, family-run greenhouse. We grow and ship all types of willow to customers across the country — from artists and gardeners to landscapers and nurseries.</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-12 flex justify-center"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                         </span>&lt;a href="#about" onclick="showPage('about')" class="font-semibold" style="color: var(--primary-color);"&gt;Learn more about us &amp;rarr;&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;!-- Services Overview Section --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;section class="section"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;h2 class="section-title"&gt;Our Products&lt;/h2&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;div class="card"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;img class="h-48 w-full object-cover" src="https://placehold.co/600x400/8B4513/F5F5DC?text=Willow+Cuttings" alt="Willow Cuttings"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="p-6"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;h3 class="text-xl font-bold" style="color: var(--text-dark);"&gt;Willow Cuttings&lt;/h3&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;p class="mt-2 text-gray-600"&gt;A wide variety of willow cuttings, perfect for basketry, landscaping, and living structures.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;div class="card"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;img class="h-48 w-full object-cover" src="https://placehold.co/600x400/5A6E55/F5F5DC?text=Specialty+Plants" alt="Specialty Plants"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="p-6"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;h3 class="text-xl font-bold" style="color: var(--text-dark);"&gt;Specialty Plants&lt;/h3&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;p class="mt-2 text-gray-600"&gt;Unique and hard-to-find plants to bring character and biodiversity to your garden.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p3"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span></font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                     </span>&lt;div class="mt-12 flex justify-center"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                         </span>&lt;a href="#services" onclick="showPage('services')" class="font-semibold" style="color: var(--primary-color);"&gt;View all products &amp;rarr;&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;/section&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;!-- About Page --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;div id="about" class="page hidden"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;div class="section bg-white"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;h2 class="section-title"&gt;About Western Slope Willow&lt;/h2&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-12 prose prose-lg mx-auto" style="color: var(--text-dark);"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;p&gt;At &lt;strong&gt;Western Slope Willow&lt;/strong&gt;, we specialize in growing &lt;strong&gt;premium willow&lt;/strong&gt; and &lt;strong&gt;unique specialty plants&lt;/strong&gt; in the heart of &lt;strong&gt;Montrose, Colorado&lt;/strong&gt;.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;p&gt;With over 15 years of experience and a horticulture degree from Oklahoma State, our founder turned a lifelong dream into a thriving, family-run greenhouse.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;p&gt;We grow and ship &lt;strong&gt;all types of willow&lt;/strong&gt;, including popular &lt;strong&gt;basketry willow&lt;/strong&gt;, to customers across the country, from artists and gardeners to landscapers and nurseries. &lt;p&gt; Everything is cultivated with care in our own &lt;strong&gt;1600 sq ft greenhouse&lt;/strong&gt;, using sustainable, hands-on growing practices.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;p&gt;Our roots run deep. We’re proud to be a small, family business where you’ll often find us gardening alongside our kids, growing beauty, tradition, and connection one plant at a time.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;h3 class="mt-8"&gt;Specialties:&lt;/h3&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;ul&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;li&gt;All varieties of willow trees and cuttings&lt;/li&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;li&gt;Basketry willow grown for strength and flexibility&lt;/li&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;li&gt;Specialty plants for gardens, landscapes, and restoration&lt;/li&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;li&gt;Nationwide shipping from our Montrose, CO greenhouse&lt;/li&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;!-- Services/Products Page --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;div id="services" class="page hidden"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">             </span>&lt;div class="section"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;h2 class="section-title"&gt;What We Grow&lt;/h2&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-600"&gt;From vibrant willows for basketry to unique plants for your garden, everything is grown with care.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-12 space-y-12"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;!-- Product Item 1 --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;div class="flex flex-col md:flex-row items-center bg-white rounded-xl shadow-lg p-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="md:w-1/3 mb-6 md:mb-0 md:mr-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;img src="https://placehold.co/600x400/8B4513/F5F5DC?text=Willow+Varieties" class="rounded-lg shadow-md"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="md:w-2/3"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;h3 class="text-2xl font-bold" style="color: var(--text-dark);"&gt;Willow for Every Purpose&lt;/h3&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;p class="mt-4 text-gray-600"&gt;We cultivate dozens of willow varieties, each with unique colors, textures, and properties. Whether you need strong, flexible rods for weaving, fast-growing trees for a living fence, or ornamental varieties for your landscape, we have the perfect cuttings for you. All are shipped dormant and ready to plant.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                         </span>&lt;!-- Product Item 2 --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;div class="flex flex-col md:flex-row-reverse items-center bg-white rounded-xl shadow-lg p-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="md:w-1/3 mb-6 md:mb-0 md:ml-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;img src="https://placehold.co/600x400/5A6E55/F5F5DC?text=Specialty+Plants" class="rounded-lg shadow-md"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="md:w-2/3"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;h3 class="text-2xl font-bold" style="color: var(--text-dark);"&gt;Unique Garden Plants&lt;/h3&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;p class="mt-4 text-gray-600"&gt;Beyond willow, we have a passion for growing unique and hard-to-find plants that add something special to your garden. Our selection changes seasonally but often includes heirloom flowers, rare herbs, and other botanical curiosities that you won't find at a typical nursery.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p3"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span></font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;!-- Contact Page --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;div id="contact" class="page hidden"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;div class="section bg-white"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;div class="max-w-xl mx-auto px-4 sm:px-6 lg:px-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;h2 class="section-title"&gt;Get In Touch&lt;/h2&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;p class="mt-4 text-lg text-gray-600 text-center"&gt;Have a question about our plants or need advice for your project? We'd love to hear from you.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;form action="#" method="POST" class="mt-12 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;label for="first-name" class="block text-sm font-medium text-gray-700"&gt;First name&lt;/label&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="mt-1"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;input type="text" name="first-name" id="first-name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;label for="last-name" class="block text-sm font-medium text-gray-700"&gt;Last name&lt;/label&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="mt-1"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;input type="text" name="last-name" id="last-name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;div class="sm:col-span-2"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;label for="email" class="block text-sm font-medium text-gray-700"&gt;Email&lt;/label&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="mt-1"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;div class="sm:col-span-2"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;label for="message" class="block text-sm font-medium text-gray-700"&gt;Message&lt;/label&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;div class="mt-1"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>&lt;textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border border-gray-300 rounded-md"&gt;&lt;/textarea&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;div class="sm:col-span-2"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;button type="submit" class="w-full cta-button justify-center"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                                </span>Send Message</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                            </span>&lt;/button&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/form&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;div class="mt-12 text-center text-gray-600"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;p&gt;Montrose, Colorado&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                        </span>&lt;p class="mt-2"&gt;Email: weis.hannah56@gmail.com&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;/main&gt;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;!-- Footer --&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;footer class="bg-gray-800"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 text-center"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;div class="mb-4 flex justify-center space-x-6"&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;a href="https://www.etsy.com/shop/WesternSlopeWillowCo" target="_blank" class="text-gray-400 hover:text-white"&gt;Etsy Store&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>&lt;a href="https://m1h2y1-4b.myshopify.com/" target="_blank" class="text-gray-400 hover:text-white"&gt;Shopify Store&lt;/a&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>&lt;p class="text-center text-base text-gray-400"&gt;&amp;copy; 2024 Western Slope Willow. All rights reserved.&lt;/p&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;script&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>// --- Page Navigation ---</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>const pages = document.querySelectorAll('.page');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>const navLinks = document.querySelectorAll('.nav-link');</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>function showPage(pageId) {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>// Hide all pages</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>pages.forEach(page =&gt; {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>page.classList.add('hidden');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>});</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>// Show the selected page</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>const activePage = document.getElementById(pageId);</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>if (activePage) {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>activePage.classList.remove('hidden');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>}</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>// Update active state in nav links</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>navLinks.forEach(link =&gt; {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>link.classList.remove('active');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>if (link.getAttribute('href') === `#${pageId}`) {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>link.classList.add('active');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>});</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>// Close mobile menu if open</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>const mobileMenu = document.getElementById('mobile-menu');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>mobileMenu.classList.add('hidden');</font></p>
-<p class="p3"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span></font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>// Scroll to top of page</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>window.scrollTo(0, 0);</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>}</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>// --- Mobile Menu ---</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>const mobileMenuButton = document.getElementById('mobile-menu-button');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>const mobileMenu = document.getElementById('mobile-menu');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>const mobileMenuSvgs = mobileMenuButton.querySelectorAll('svg');</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>mobileMenuButton.addEventListener('click', () =&gt; {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>mobileMenu.classList.toggle('hidden');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>mobileMenuSvgs.forEach(svg =&gt; svg.classList.toggle('hidden'));</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>});</font></p>
-<p class="p3"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span></font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>// --- Shop Dropdown ---</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>const shopMenuButton = document.getElementById('shop-menu-button');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>const dropdown = shopMenuButton.parentElement;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>shopMenuButton.addEventListener('click', (event) =&gt; {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>event.stopPropagation(); // Prevent the window click event from firing</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>dropdown.classList.toggle('open');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>});</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>// Close dropdown when clicking outside</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>window.addEventListener('click', () =&gt; {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>if (dropdown.classList.contains('open')) {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>dropdown.classList.remove('open');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>});</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>// --- Page Link Handling ---</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>document.querySelectorAll('a[href^="#"]').forEach(anchor =&gt; {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>anchor.addEventListener('click', function (e) {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>// Check if the link is for a page or just a placeholder</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>if (this.getAttribute('href') !== '#') {</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>e.preventDefault();</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>const pageId = this.getAttribute('href').substring(1);</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                    </span>showPage(pageId);</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">                </span>}</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">            </span>});</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>});</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>// Show home page by default</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">        </span>showPage('home');</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</font></p>
-<p class="p2"><br></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1">&lt;/body&gt;</font></p>
-<p class="p1"><font face="Helvetica" size="3" class="f1">&lt;/html&gt;</font></p>
+<body class="bg-gray-100">
+
+    <!-- Navigation -->
+    <nav class="bg-gray-800 fixed w-full z-20 top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center">
+                    <div class="flex-shrink-0">
+                        <span class="text-white font-bold text-xl">Western Slope Willow</span>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#home" class="nav-link active" onclick="showPage('home')">Home</a>
+                        <a href="#about" class="nav-link" onclick="showPage('about')">About</a>
+                        <a href="#services" class="nav-link" onclick="showPage('services')">Products</a>
+                        <!-- Shop Dropdown -->
+                        <div class="relative dropdown">
+                            <button id="shop-menu-button" class="nav-link flex items-center">
+                                Shop
+                                <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                            </button>
+                            <div class="dropdown-menu absolute right-0 mt-2 w-48 bg-gray-800 rounded-md shadow-lg py-1 z-20">
+                                <a href="https://www.etsy.com/shop/WesternSlopeWillowCo" target="_blank" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Etsy Store</a>
+                                <a href="https://m1h2y1-4b.myshopify.com/" target="_blank" class="block px-4 py-2 text-sm text-white hover:bg-gray-700">Shopify Store</a>
+                            </div>
+                        </div>
+                        <a href="#contact" class="nav-link" onclick="showPage('contact')">Contact</a>
+                    </div>
+                </div>
+                <div class="md:hidden">
+                     <button id="mobile-menu-button" class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+                        <span class="sr-only">Open main menu</span>
+                        <svg class="block h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+                        </svg>
+                        <svg class="hidden h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="md:hidden hidden" id="mobile-menu">
+            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
+                <a href="#home" class="block nav-link active" onclick="showPage('home')">Home</a>
+                <a href="#about" class="block nav-link" onclick="showPage('about')">About</a>
+                <a href="#services" class="block nav-link" onclick="showPage('services')">Products</a>
+                <a href="#contact" class="block nav-link" onclick="showPage('contact')">Contact</a>
+                <a href="https://www.etsy.com/shop/WesternSlopeWillowCo" target="_blank" class="block nav-link">Etsy Store</a>
+                <a href="https://m1h2y1-4b.myshopify.com/" target="_blank" class="block nav-link">Shopify Store</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="pt-16">
+        <!-- Home Page -->
+        <div id="home" class="page">
+            <!-- Hero Section -->
+            <header class="bg-white shadow">
+                <div class="max-w-7xl mx-auto py-20 px-4 sm:px-6 lg:px-8 text-center">
+                    <h1 class="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight" style="color: var(--text-dark);">
+                        Hand-Grown Willow & <span class="text-primary">Specialty Plants</span>
+                    </h1>
+                    <p class="mt-4 max-w-2xl mx-auto text-lg sm:text-xl text-gray-600">
+                        From our family-run greenhouse in Montrose, Colorado, to your home, garden, or nursery.
+                    </p>
+                    <div class="mt-8">
+                        <a href="#contact" onclick="showPage('contact')" class="cta-button">Explore Our Plants</a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- About Us Summary Section -->
+            <section class="section bg-gray-50">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <div class="lg:text-center">
+                        <h2 class="text-base font-semibold tracking-wide uppercase" style="color: var(--primary-color);">About Us</h2>
+                        <p class="mt-2 section-title">Growing Beauty from the Western Slope</p>
+                        <p class="mt-4 max-w-2xl text-xl text-gray-600 lg:mx-auto">
+                            At Western Slope Willow, we specialize in growing premium willow and unique specialty plants. With over 20 years of experience, our founder turned a lifelong dream into a thriving, family-run greenhouse. We grow and ship all types of willow to customers across the country — from artists and gardeners to landscapers and nurseries.
+                        </p>
+                    </div>
+                    <div class="mt-12 flex justify-center">
+                         <a href="#about" onclick="showPage('about')" class="font-semibold" style="color: var(--primary-color);">Learn more about us &rarr;</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Products Overview Section -->
+            <section class="section">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="section-title">Our Products</h2>
+                    <div class="mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                        <div class="card">
+                            <img class="h-48 w-full object-cover" src="https://placehold.co/600x400/8B4513/F5F5DC?text=Willow+Cuttings" alt="Willow Cuttings">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold" style="color: var(--text-dark);">Willow Cuttings</h3>
+                                <p class="mt-2 text-gray-600">A wide variety of willow cuttings, perfect for basketry, landscaping, and living structures.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <img class="h-48 w-full object-cover" src="https://placehold.co/600x400/5A6E55/F5F5DC?text=Specialty+Plants" alt="Specialty Plants">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold" style="color: var(--text-dark);">Specialty Plants</h3>
+                                <p class="mt-2 text-gray-600">Unique and hard-to-find plants to bring character and biodiversity to your garden.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                           <img class="h-48 w-full object-cover" src="https://placehold.co/600x400/D2B48C/3D483A?text=Gardening+Supplies" alt="Gardening Supplies">
+                            <div class="p-6">
+                                <h3 class="text-xl font-bold" style="color: var(--text-dark);">Gardening Supplies</h3>
+                                <p class="mt-2 text-gray-600">Quality tools and supplies to help your plants thrive, curated by our expert growers.</p>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="mt-12 flex justify-center">
+                         <a href="#services" onclick="showPage('services')" class="font-semibold" style="color: var(--primary-color);">View all products &rarr;</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- About Page -->
+        <div id="about" class="page hidden">
+            <div class="section bg-white">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="section-title">About Western Slope Willow</h2>
+                    <div class="mt-12 prose prose-lg mx-auto" style="color: var(--text-dark);">
+                        <p>At <strong>Western Slope Willow</strong>, we specialize in growing <strong>premium willow</strong> and <strong>unique specialty plants</strong> in the heart of <strong>Montrose, Colorado</strong>.</p>
+                        <p>With over 15 years of experience and a horticulture degree from Oklahoma State, our founder turned a lifelong dream into a thriving, family-run greenhouse.</p>
+                        <p>We grow and ship <strong>all types of willow</strong>, including popular <strong>basketry willow</strong>, to customers across the country, from artists and gardeners to landscapers and nurseries. Everything is cultivated with care in our own <strong>1600 sq ft greenhouse</strong>, using sustainable, hands-on growing practices.</p>
+                        <p>Our roots run deep. We’re proud to be a small, family business where you’ll often find us gardening alongside our kids, growing beauty, tradition, and connection one plant at a time.</p>
+                        <h3 class="mt-8">Specialties:</h3>
+                        <ul>
+                            <li>All varieties of willow trees and cuttings</li>
+                            <li>Basketry willow grown for strength and flexibility</li>
+                            <li>Specialty plants for gardens, landscapes, and restoration</li>
+                            <li>Nationwide shipping from our Montrose, CO greenhouse</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Products Page -->
+        <div id="services" class="page hidden">
+             <div class="section">
+                <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="section-title">What We Grow</h2>
+                    <p class="mt-4 max-w-3xl mx-auto text-center text-xl text-gray-600">From vibrant willows for basketry to unique plants for your garden, everything is grown with care.</p>
+                    <div class="mt-12 space-y-12">
+                        <!-- Product Item 1 -->
+                        <div class="flex flex-col md:flex-row items-center bg-white rounded-xl shadow-lg p-8">
+                            <div class="md:w-1/3 mb-6 md:mb-0 md:mr-8">
+                                <img src="https://placehold.co/600x400/8B4513/F5F5DC?text=Willow+Varieties" class="rounded-lg shadow-md">
+                            </div>
+                            <div class="md:w-2/3">
+                                <h3 class="text-2xl font-bold" style="color: var(--text-dark);">Willow for Every Purpose</h3>
+                                <p class="mt-4 text-gray-600">We cultivate dozens of willow varieties, each with unique colors, textures, and properties. Whether you need strong, flexible rods for weaving, fast-growing trees for a living fence, or ornamental varieties for your landscape, we have the perfect cuttings for you. All are shipped dormant and ready to plant.</p>
+                            </div>
+                        </div>
+                         <!-- Product Item 2 -->
+                        <div class="flex flex-col md:flex-row-reverse items-center bg-white rounded-xl shadow-lg p-8">
+                            <div class="md:w-1/3 mb-6 md:mb-0 md:ml-8">
+                                <img src="https://placehold.co/600x400/5A6E55/F5F5DC?text=Specialty+Plants" class="rounded-lg shadow-md">
+                            </div>
+                            <div class="md:w-2/3">
+                                <h3 class="text-2xl font-bold" style="color: var(--text-dark);">Unique Garden Plants</h3>
+                                <p class="mt-4 text-gray-600">Beyond willow, we have a passion for growing unique and hard-to-find plants that add something special to your garden. Our selection changes seasonally but often includes heirloom flowers, rare herbs, and other botanical curiosities that you won't find at a typical nursery.</p>
+                            </div>
+                        </div>
+                         <!-- Product Item 3 -->
+                        <div class="flex flex-col md:flex-row items-center bg-white rounded-xl shadow-lg p-8">
+                            <div class="md:w-1/3 mb-6 md:mb-0 md:mr-8">
+                                <img src="https://placehold.co/600x400/D2B48C/3D483A?text=Gardening+Supplies" class="rounded-lg shadow-md">
+                            </div>
+                            <div class="md:w-2/3">
+                                <h3 class="text-2xl font-bold" style="color: var(--text-dark);">Grower-Approved Supplies</h3>
+                                <p class="mt-4 text-gray-600">Get the best results with our curated selection of gardening supplies. We only sell the tools, soils, and amendments that we use ourselves in the greenhouse. From high-quality snips for harvesting to organic fertilizers that promote vigorous growth, we've got you covered.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Page -->
+        <div id="contact" class="page hidden">
+            <div class="section bg-white">
+                <div class="max-w-xl mx-auto px-4 sm:px-6 lg:px-8">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="mt-4 text-lg text-gray-600 text-center">Have a question about our plants or need advice for your project? We'd love to hear from you.</p>
+                    <form action="#" method="POST" class="mt-12 grid grid-cols-1 gap-y-6 sm:grid-cols-2 sm:gap-x-8">
+                        <div>
+                            <label for="first-name" class="block text-sm font-medium text-gray-700">First name</label>
+                            <div class="mt-1">
+                                <input type="text" name="first-name" id="first-name" autocomplete="given-name" class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md">
+                            </div>
+                        </div>
+                        <div>
+                            <label for="last-name" class="block text-sm font-medium text-gray-700">Last name</label>
+                            <div class="mt-1">
+                                <input type="text" name="last-name" id="last-name" autocomplete="family-name" class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md">
+                            </div>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label for="email" class="block text-sm font-medium text-gray-700">Email</label>
+                            <div class="mt-1">
+                                <input id="email" name="email" type="email" autocomplete="email" class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border-gray-300 rounded-md">
+                            </div>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+                            <div class="mt-1">
+                                <textarea id="message" name="message" rows="4" class="py-3 px-4 block w-full shadow-sm focus:ring-green-500 focus:border-green-500 border border-gray-300 rounded-md"></textarea>
+                            </div>
+                        </div>
+                        <div class="sm:col-span-2">
+                            <button type="submit" class="w-full cta-button justify-center">
+                                Send Message
+                            </button>
+                        </div>
+                    </form>
+                    <div class="mt-12 text-center text-gray-600">
+                        <p>Montrose, Colorado</p>
+                        <p class="mt-2">Email: contact@westernslopewillow.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800">
+        <div class="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8 text-center">
+            <div class="mb-4 flex justify-center space-x-6">
+                <a href="https://www.etsy.com/shop/WesternSlopeWillowCo" target="_blank" class="text-gray-400 hover:text-white">Etsy Store</a>
+                <a href="https://m1h2y1-4b.myshopify.com/" target="_blank" class="text-gray-400 hover:text-white">Shopify Store</a>
+            </div>
+            <p class="text-center text-base text-gray-400">&copy; 2024 Western Slope Willow. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // --- Page Navigation ---
+        const pages = document.querySelectorAll('.page');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        function showPage(pageId) {
+            // Hide all pages
+            pages.forEach(page => {
+                page.classList.add('hidden');
+            });
+
+            // Show the selected page
+            const activePage = document.getElementById(pageId);
+            if (activePage) {
+                activePage.classList.remove('hidden');
+            }
+
+            // Update active state in nav links
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${pageId}`) {
+                    link.classList.add('active');
+                }
+            });
+
+            // Close mobile menu if open
+            const mobileMenu = document.getElementById('mobile-menu');
+            if (mobileMenu) {
+                mobileMenu.classList.add('hidden');
+            }
+            
+            // Scroll to top of page
+            window.scrollTo(0, 0);
+        }
+
+        // --- Mobile Menu ---
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileMenuSvgs = mobileMenuButton ? mobileMenuButton.querySelectorAll('svg') : [];
+
+        if (mobileMenuButton) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+                mobileMenuSvgs.forEach(svg => svg.classList.toggle('hidden'));
+            });
+        }
+        
+        // --- Shop Dropdown ---
+        const shopMenuButton = document.getElementById('shop-menu-button');
+        if (shopMenuButton) {
+            const dropdown = shopMenuButton.parentElement;
+            shopMenuButton.addEventListener('click', (event) => {
+                event.stopPropagation(); // Prevent the window click event from firing
+                dropdown.classList.toggle('open');
+            });
+
+            // Close dropdown when clicking outside
+            window.addEventListener('click', () => {
+                if (dropdown.classList.contains('open')) {
+                    dropdown.classList.remove('open');
+                }
+            });
+        }
+
+        // --- Page Link Handling ---
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                // Check if the link is for a page or just a placeholder
+                if (this.getAttribute('href') !== '#') {
+                    e.preventDefault();
+                    const pageId = this.getAttribute('href').substring(1);
+                    showPage(pageId);
+                }
+            });
+        });
+
+        // Show home page by default
+        showPage('home');
+    </script>
+
 </body>
 </html>
