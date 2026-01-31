@@ -864,4 +864,10 @@
         showPage('home');
         observeElements();
 
-        document.querySelectorAll('.dropdown-btn
+        document.querySelectorAll('.dropdown-btn').forEach(btn => {
+            btn.addEventListener('click', (e) => { e.stopPropagation(); btn.parentElement.classList.toggle('open'); });
+        });
+        document.addEventListener('click', () => { document.querySelectorAll('.dropdown').forEach(d => d.classList.remove('open')); });
+    </script>
+</body>
+</html>
