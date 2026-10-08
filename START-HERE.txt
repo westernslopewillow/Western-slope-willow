@@ -1,0 +1,42 @@
+WESTERN SLOPE WILLOW
+Prepared October 8, 2026
+
+1. Read search-growth-plan.html for the research, priorities and 90-day plan.
+2. Review the local website preview at http://127.0.0.1:8765/ while the preview server is running.
+3. website-update/ contains the complete proposed GitHub Pages website.
+
+STATUS
+The live website and GitHub repository have not been changed. These are local review files.
+The copy uses public facts from your existing website and Etsy shop and your confirmed email address.
+Exact prices, available quantities and shipping estimates stay on Etsy.
+Project inquiries use your email app, with a prefilled checklist; there is no hidden form service.
+
+REVIEW BEFORE PUBLISHING
+- Confirm all product descriptions and current Etsy links.
+- Confirm phone (405) 697-7559 and existing horticulture credentials.
+- Confirm garden design service areas carried over from the original website.
+- Confirm whether the restoration page accurately describes what you can supply.
+- Review your public contact email: weis.hannah56@gmail.com.
+
+GITHUB PAGES PUBLICATION
+Repository: https://github.com/westernslopewillow/Western-slope-willow
+Copy the CONTENTS of website-update into the root of the existing repository.
+Do not place website-update itself inside the repository as a subfolder.
+Include assets/, all page folders, index.html, 404.html, robots.txt, sitemap.xml, CNAME and .nojekyll.
+Keep CNAME set to westernslopewillow.com. Keep Enforce HTTPS enabled in Pages settings.
+Review the changes and commit through your normal GitHub workflow. A commit to the publishing branch may deploy immediately.
+Git history preserves the prior website for rollback. Keep your existing README if desired.
+
+AFTER PUBLICATION
+- Open homepage, basketry, dried rods, plants/cuttings, restoration, contact and design pages on desktop and mobile.
+- Check that Gmail links open the right address, and send a real test message yourself.
+- Check product links and the shop checkout for your destination.
+- Verify the sitemap and key URLs in Google Search Console. No Search Console verification token is included.
+- Change .org forwarding to https://westernslopewillow.com/ to remove the HTTP redirect hop.
+- No analytics account, Merchant Center feed or Google Business Profile was created by this work.
+
+LOCAL PREVIEW LATER
+From this outputs directory, run:
+python3 -m http.server 8765 --bind 127.0.0.1 --directory website-update
+Then open http://127.0.0.1:8765/
+The website uses root-relative URLs for GitHub Pages. Opening index.html directly as a file will not provide a full working preview.
